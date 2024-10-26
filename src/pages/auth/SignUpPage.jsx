@@ -1,8 +1,8 @@
-import AuthForm from "./AuthForm";
-import FormContainer from "./FormContainer";
 import { Link } from "react-router-dom";
 import { useState } from "react";
-import * as userService from "../../services/user";
+import AuthForm from "./AuthForm";
+import FormContainer from "./FormContainer";
+import * as userService from "services/user";
 
 const SignUpPage = () => {
   const [error, setError] = useState("");
