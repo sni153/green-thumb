@@ -17,6 +17,9 @@ const SignInPage = () => {
           },
         ]}
         submitButtonText="sign in"
+        onSubmit={(values) => {
+          console.log("do stuff with submitted values", values);
+        }}
       />
       <Link to="/sign-up" className="text-sm text-green-600 underline">
         create an account
